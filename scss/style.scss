@@ -1,0 +1,91 @@
+//global
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #1c384d;
+    line-height: 29px;
+}
+
+//header
+
+.header {
+    width: 1642px;
+    max-width: 100%;
+    position: absolute;
+    top: 84px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 40px;
+        color: #1572b8;
+        text-transform: uppercase;
+    }
+}
+
+.nav-menu-list{
+    display: flex;
+    .nav-menu-item{
+        margin: 0 32px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 22px;
+        color: #1572B8;
+
+        .nav-menu-item-link{
+            color: inherit;
+        }
+    }
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    .account{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 22px;
+        color: #1572B8;
+        margin-right: 37px;
+    }
+    input{
+        display: none;
+    }
+    label{
+        margin-left: 22px;
+        display: block;
+        img{
+            display: block;
+            width: 27px;
+            height: auto;
+        }
+    }
+}
+
+
+//hero
+
+.hero {
+    height: 100vh;
+    background: #fdd2b2;
+}
