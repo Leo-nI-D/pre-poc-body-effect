@@ -91,7 +91,9 @@ body {
     select {
         border: none;
         background-color: #1572b8;
-        width: 30px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
         color: #fdd2b2;
         font-weight: 700;
         font-size: 18px;
@@ -104,7 +106,7 @@ body {
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    text-indent: 1px;
+    text-indent: 4px;
     text-overflow: "";
 }
 
