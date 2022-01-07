@@ -80,28 +80,20 @@ body {
       width: 27px;
       height: auto; }
 
-.circle {
-  list-style-type: none;
-  border-radius: 50%;
+form select {
+  border: none;
   background-color: #1572b8;
   width: 34px;
-  height: 34px; }
-  .circle select {
-    border: none;
-    background-color: #1572b8;
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    color: #fdd2b2;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-transform: uppercase; }
-
-select {
+  height: 34px;
+  border-radius: 50%;
+  color: #fdd2b2;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 4px;
