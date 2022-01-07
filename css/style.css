@@ -52,7 +52,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 22px;
-    color: #1572B8; }
+    color: #1572b8; }
     .nav-menu-list .nav-menu-item .nav-menu-item-link {
       color: inherit; }
 
@@ -68,7 +68,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 22px;
-    color: #1572B8;
+    color: #1572b8;
     margin-right: 37px; }
   .action input {
     display: none; }
@@ -79,6 +79,31 @@ body {
       display: block;
       width: 27px;
       height: auto; }
+
+.circle {
+  list-style-type: none;
+  border-radius: 50%;
+  background-color: #1572b8;
+  width: 34px;
+  height: 34px; }
+  .circle select {
+    border: none;
+    background-color: #1572b8;
+    width: 30px;
+    color: #fdd2b2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: ""; }
 
 .hero {
   height: 100vh;
