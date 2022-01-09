@@ -83,6 +83,7 @@ body {
 }
 
 form {
+    position: relative;
     select {
         border: none;
         background-color: #1572b8;
@@ -102,18 +103,21 @@ form {
     }
 }
 
-// form::after{
-//     content: '';
-//     display: block;
-//     width: 100%;
-//     height: 5px;    
-//     background: url(../img/input-lang-arrow.svg);
-//     background-repeat: no-repeat;
-// }
+form::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: calc(50% - 2px);
+    display: block;
+    width: 8px;
+    height: 5px;    
+    background: url(../img/input-lang-arrow.svg);
+    background-repeat: no-repeat;
+}
 
-// .form-wraper{
-//     display: flex;
-// }
+.form-wraper{
+    display: flex;
+}
 
 //hero
 

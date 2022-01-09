@@ -80,24 +80,42 @@ body {
       width: 27px;
       height: auto; }
 
-form select {
-  border: none;
-  background-color: #1572b8;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  color: #fdd2b2;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-transform: uppercase;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 4px;
-  text-overflow: ""; }
+form {
+  position: relative; }
+  form select {
+    border: none;
+    background-color: #1572b8;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: #fdd2b2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 4px;
+    text-overflow: ""; }
+
+form::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: calc(50% - 2px);
+  display: block;
+  width: 8px;
+  height: 5px;
+  background: url(../img/input-lang-arrow.svg);
+  background-repeat: no-repeat; }
+
+.form-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .hero {
   height: 100vh;
